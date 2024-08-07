@@ -11,7 +11,8 @@ on:
 jobs: 
   build-project: 
     name: Build Project
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
+    container: node:20.16.0 
     steps: 
       - name: Checkout
         uses: actions/checkout@v4
