@@ -1,0 +1,7 @@
+on: push
+jobs:
+  first-build:
+    runs-on: ubuntu-lates
+    steps: 
+      run: node --version
+      run: npm --version
