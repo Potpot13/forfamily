@@ -1,9 +1,6 @@
 
 name: Building the project
 on: 
-  push:
-    branches:
-      - master
   pull_request: 
     branches: 
       - master
