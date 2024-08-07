@@ -3,5 +3,5 @@ jobs:
   first-build:
     runs-on: ubuntu-lates
     steps: 
-      run: node --version
-      run: npm --version
+      - run: node --version
+      - run: npm --version
